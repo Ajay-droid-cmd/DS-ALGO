@@ -5,3 +5,4 @@ This repository contains Data structure and Algorithm problems and solutions
  => x.Patterns formation
  =>Find a mean in an array
  =>Capitalise the first letter in a string
+ =>Magic Matrix

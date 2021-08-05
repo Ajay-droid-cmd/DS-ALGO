@@ -25,5 +25,5 @@ function allTitleCase(str)
 	});
 }
 
-let str ="tEsT tHis WORD"
+let str ="lkkaic jjwufbnv hashydetneshi aoiqofaslkajoif asjokfa."
 console.log(allTitleCase(str));
