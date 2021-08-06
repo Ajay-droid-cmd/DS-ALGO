@@ -1,5 +1,5 @@
 // To convert every first letter in a string to capitalize
-/*function convert(ch) {
+function convert(ch) {
     str =ch.split("");
     for(let i = 0; i < str.length; i++) {
         if(i==0 && str[i] != ' ' || str[i] != ' ' && str[i-1] == ' '){
@@ -15,15 +15,15 @@
 }
 
 let str ="tEsT tHis WORD"
-console.log(convert(str));*/
+console.log(convert(str));
 // Second approach Using regex pattern
-function allTitleCase(str)
-{
-    return str.replace(/\w\S*/g, function(tr)
-	{
+//function allTitleCase(str)
+//{
+ //   return str.replace(/\w\S*/g, function(tr)
+/*	{
 		return tr.charAt(0).toUpperCase() + tr.substr(1).toLowerCase();
 	});
 }
 
 let str ="lkkaic jjwufbnv hashydetneshi aoiqofaslkajoif asjokfa."
-console.log(allTitleCase(str));
+console.log(allTitleCase(str));*/
