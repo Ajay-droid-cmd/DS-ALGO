@@ -1,8 +1,9 @@
 //Incomplete Function
 let x=5;
 for(let i=1; i<=x;i++){
+    let str = '';
     for(let j=1; j<=i;j++){
-        console.log("*")
+        str +='*';
     }
-    console.log("\r\n")
+    console.log(str)
 }

@@ -7,3 +7,4 @@ This repository contains Data structure and Algorithm problems and solutions
  =>Capitalise the first letter in a string
  =>Magic Matrix
  =>Vowelcount
+ =>Diagonal sum in a matrix
