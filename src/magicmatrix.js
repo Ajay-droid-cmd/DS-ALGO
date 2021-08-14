@@ -12,6 +12,7 @@ function isMagicMatrix(matrix,N) {
             let row=0,col=0;
             for(let j=0; j <N;j++){
                 row += matrix[i][j]
+                
                 col += matrix[i][j]
             }
             if(row != col || col != sum1){

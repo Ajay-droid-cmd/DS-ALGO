@@ -1,4 +1,4 @@
-This repository contains Data structure and Algorithm problems and solutions 
+# This repository contains Data structure and Algorithm problems and solutions 
 
 
  => 1.Search in unsorted array 
@@ -8,3 +8,6 @@ This repository contains Data structure and Algorithm problems and solutions
  =>Magic Matrix
  =>Vowelcount
  =>Diagonal sum in a matrix
+ =>Matrix addition
+ =>vowels count
+ =>query element
