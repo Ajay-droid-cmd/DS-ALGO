@@ -1,6 +1,6 @@
 //To find weather the given matrix is a magic or not
 //function to find diagonal
-/*function digimat(mat) {
+function digimat(mat) {
   let n = mat.length;
   var sum1 = 0;
   var sum2 = 0;
@@ -8,9 +8,7 @@
     sum1 = sum1 + mat[i][i];
     sum2 = sum2 + mat[i][n - 1 - i];
   }
-  if (sum1 != sum2) 
-    return "Not a magic matrix";
-  
+  if (sum1 != sum2) return "Not a magic matrix";
 
   for (let i = 0; i < n; i++) {
     let row = 0;
@@ -18,26 +16,26 @@
     for (let j = 0; j < n; j++) {
       row += mat[i][j];
       col += mat[j][i];
-
-      if (row != col || col != row) 
-        return "Not a col magic matrix";
-      
     }
+      if (row != col || col != row) return "Not a col magic matrix";
+    
   }
   return " Its a match";
 }
 
 // Driver function
 let mat = [
-  [1, 2, 3],
-  [1, 2, 3],
-  [1, 2, 3],
+  [8, 1, 6],
+  [3, 5, 7],
+  [4, 9, 2],
 ];
 
-console.log(digimat(mat));*/
+console.log(digimat(mat));
+
+// Geeks for Geeks methoed
 // Returns true if mat[][] is magic
 // square, else returns false.
-function isMagicSquare(mat)
+/*function isMagicSquare(mat)
 {
     var N = mat.length
     // sumd1 and sumd2 are the sum of the two diagonals
@@ -70,11 +68,11 @@ function isMagicSquare(mat)
  
 // driver program to
 // test above function
-var mat = [[ 1,2,3],
-           [ 1,2,3],
-           [ 1,2,3]];
+var mat = [[ 8,1,6],
+           [ 3,5,7],
+           [ 4,9,2]];
  
 if (isMagicSquare(mat))
     console.log( "Magic Square");
 else
-   console.log( "Not a magic Square");
+   console.log( "Not a magic Square");*/
