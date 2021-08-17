@@ -6,9 +6,10 @@ function convert(ch) {
             if(str[i] >= 'a' && str[i] <= 'z'){
                 str[i] = str[i].toUpperCase();
             }
-        }else if(str[i] >= 'A' && str[i] <= 'Z'){
-            str[i]= str[i].toLowerCase();
-        }
+        }  // to make all other letters to lowercase 
+            /* else if(str[i] >= 'A' && str[i] <= 'Z'){
+                str[i]= str[i].toLowerCase();
+        }*/
     }
     let st=(str.join(""))
     return st;
