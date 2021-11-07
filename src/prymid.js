@@ -1,0 +1,1 @@
+// Function to Print a diamond scheme  
