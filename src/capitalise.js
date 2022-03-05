@@ -1,22 +1,22 @@
 // To convert every first letter in a string to capitalize
-function convert(ch) {
-    str =ch.split("");
-    for(let i = 0; i < str.length; i++) {
-        if(i==0 && str[i] != ' ' || str[i] != ' ' && str[i-1] == ' '){
-            if(str[i] >= 'a' && str[i] <= 'z'){
-                str[i] = str[i].toUpperCase();
-            }
-        }  // to make all other letters to lowercase 
-            /* else if(str[i] >= 'A' && str[i] <= 'Z'){
-                str[i]= str[i].toLowerCase();
-        }*/
-    }
-    let st=(str.join(""))
-    return st;
-}
+// function convert(ch) {
+//     str =ch.split("");
+//     for(let i = 0; i < str.length; i++) {
+//         if(i==0 && str[i] != ' ' || str[i] != ' ' && str[i-1] == ' '){
+//             if(str[i] >= 'a' && str[i] <= 'z'){
+//                 str[i] = str[i].toUpperCase();
+//             }
+//         }  // to make all other letters to lowercase 
+//             /* else if(str[i] >= 'A' && str[i] <= 'Z'){
+//                 str[i]= str[i].toLowerCase();
+//         }*/
+//     }
+//     let st=(str.join(""))
+//     return st;
+// }
 
-let str ="tEsT tHis WORD"
-console.log(convert(str));
+// let str ="tEsT tHis WORD"
+// console.log(convert(str));
 // Second approach Using regex pattern
 //function allTitleCase(str)
 //{
@@ -28,3 +28,11 @@ console.log(convert(str));
 
 let str ="lkkaic jjwufbnv hashydetneshi aoiqofaslkajoif asjokfa."
 console.log(allTitleCase(str));*/
+
+// Alternative methoed
+function capitalize(Paragraph){
+    let arr= Array.from(Paragraph)
+    for(let i=0; i<arr.length; i++){
+        if(i==0 && arr[i]!="" || arr[i]!=""){}
+    }
+}
